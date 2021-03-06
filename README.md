@@ -1,5 +1,5 @@
 # ar
-<strong>Realidad Aumentada</strong>
+<h1>Realidad Aumentada</h1>
 
 ![Captura de pantalla 2021-03-06 a las 23 01 31](https://user-images.githubusercontent.com/65786438/110222089-0fe69880-7ed0-11eb-842c-8d204572c64e.png)
 
