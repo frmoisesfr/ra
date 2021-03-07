@@ -48,11 +48,18 @@ Pequeño ejemplo:
                 <a-sphere position="1 0 3"></a-sphere>
             </a-box>
           </a-scene>
-          
+Este código va dentro del body
+    </li>
+    <li>
+        <h3>Posición de Origen</h3>
+    Debes tener cuidado a la hora de posicionar los objetos, por defecto son creados en el punto "0 0 0" eso significa que nuestra cámara también estará situada ahí, si no desplazamos los objetos no podremos verlos al principio.
     </li>
     <li>
         <h3></h3>
     </li>
+    <li>
+        <h3></h3>
+    </li>    
 </ul>
 
 <h2>Prácticas</h2>
