@@ -6,7 +6,8 @@
 
 <h2>Comencemos</h2>
 
-Para crear una escena virtual necesitamos importar una librería dentro del head de tu documento .html: 
+Para crear una escena virtual necesitamos importar una librería dentro del head de tu documento .html:
+
 <i><script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script></i>
 
 A continuación debes insertar el contenido en el body, primero una escena y dentro de ella todos sus elementos: primitivas o entidades, cámara, luz, cielo, etc.
