@@ -24,16 +24,13 @@ Pequeño ejemplo:
 <h2>Propiedades de Transformación</h2>
 <ul>
     <li>
-        <h3>Position</h3>
-        Es la posición de nuestro objeto medido siempre en las coordenadas "x y z"
+        <h4>Position: </h4>Es la posición de nuestro objeto medido siempre en las coordenadas "x y z"
     </li>
     <li>
-        <h3>Rotation</h3>
-        Nos permite rotar el objeto los grados que queramos y en relación al eje que elijamos.
+        <h4>Rotation: </h4>Nos permite rotar el objeto los grados que queramos y en relación al eje que elijamos.
     </li>
     <li>
-        <h3>Width, Height</h3>
-        La propiedad Width sirve para indicar la anchura del objeto y height la altura, si tuviéramos un cubo estaríamos hablando de la base por la altura. Se utiliza para crear un objeto con las dimensiones que queramos.
+        <h4>Width, Height: </h4> La propiedad Width sirve para indicar la anchura del objeto y height la altura, si tuviéramos un cubo estaríamos hablando de la base por la altura. Se utiliza para crear un objeto con las dimensiones que queramos.
     </li>
     <li>
         <h3>Scale</h3>
@@ -70,7 +67,10 @@ Este código va dentro del body
     <li>
         <h3>Tu primera escena virtual</h3>
         Bienvenid@ a tu primera práctica, accede al código, míralo, modifícalo y estúdialo. Tu primera misión es crear una escena parecida pero con tus propias primitivas: añade tus propias texturas y colores, rota los objetos. ¿Eres capaz de crear una habitación? ¿Eres capaz de crear una ventana, una silla o incluso un pequeño avatar? En tus manos lo dejo.
-        ![Captura de pantalla 2021-03-07 a las 20 22 21](https://user-images.githubusercontent.com/65786438/110251941-534e0f00-7f83-11eb-8170-5854271b1c1e.png)
+        
+        ![Captura de pantalla 2021-03-07 a las 20 22 21](https://user-images.githubusercontent.com/65786438/110251985-8db7ac00-7f83-11eb-9ca5-123d5f6457b7.png)
+
+        
     </li>
     <li>
         <h3></h3>
