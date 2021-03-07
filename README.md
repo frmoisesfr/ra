@@ -1,10 +1,10 @@
-<h1>Realidad Aumentada</h1>
+<h1>REALIDAD AUMENTADA</h1>
 
 <b>¿Qué es A-Frame?</b> Es un framework web de código abierto para crear experiencias de realidad virtual (VR). Los desarrolladores pueden crear escenas 3D y WebVR usando HTML. HTML proporciona una herramienta de autoría familiar para desarrolladores y diseñadores web al tiempo que incorpora un popular patrón de desarrollo de juegos utilizado por motores como Unity 3D.
 
 ![Captura de pantalla 2021-03-06 a las 23 04 51](https://user-images.githubusercontent.com/65786438/110222140-694ec780-7ed0-11eb-9f1f-fbf432228bc5.png)
 
-<h2>Comencemos</h2>
+<h2>COMENCEMOS</h2>
 
 Para crear una escena virtual necesitamos importar una librería dentro del head de tu documento .html:
 
@@ -21,7 +21,7 @@ Pequeño ejemplo:
       <a-sky color="#ECECEC"></a-sky>
     </a-scene>
 
-<h2>Propiedades de Transformación</h2>
+<h2>INTRODUCCIÓN</h2>
 <ul>
     <li>
         <h3>Position: </h3>Es la posición de nuestro objeto medido siempre en las coordenadas "x y z"
@@ -61,14 +61,14 @@ Este código va dentro del body
     </li>    
 </ul>
 
-<h2>Prácticas</h2>
+<h2>PRÁCTICAS</h2>
 
+![P1](https://user-images.githubusercontent.com/65786438/110252032-c5beef00-7f83-11eb-9650-e03ed7489b49.png)
 <ol>
     <li>
         <h3>Tu primera escena virtual</h3>
         Bienvenid@ a tu primera práctica, accede al código, míralo, modifícalo y estúdialo. Tu primera misión es crear una escena parecida pero con tus propias primitivas: añade tus propias texturas y colores, rota los objetos. ¿Eres capaz de crear una habitación? ¿Eres capaz de crear una ventana, una silla o incluso un pequeño avatar? En tus manos lo dejo.  
     </li>
-    ![P1](https://user-images.githubusercontent.com/65786438/110252032-c5beef00-7f83-11eb-9650-e03ed7489b49.png)
     Primera escena virtual
     <li>
         <h3></h3>
