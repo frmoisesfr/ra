@@ -40,7 +40,15 @@ Pequeño ejemplo:
         Es la escala de nuestro objeto medido en las coordenadas "x y z"
     </li>
     <li>
-        <h3></h3>
+        <h3>Herencia</h3>
+        Podemos crear herencia con A-frame, podemos tener padres e hijos fácilmente. Por ejemplo, en el siguiente código, la esfera es hija de la caja, por tanto todo lo que hagamos a la caja afecta también a la esfera por ser su hijo. 
+        
+          <a-scene>
+            <a-box position="0 2 0" rotation="0 45 45" scale="2 4 2">
+                <a-sphere position="1 0 3"></a-sphere>
+            </a-box>
+          </a-scene>
+          
     </li>
     <li>
         <h3></h3>
