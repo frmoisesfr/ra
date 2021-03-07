@@ -66,7 +66,22 @@ Este código va dentro del body
 
 <h2>Prácticas</h2>
 
-![Captura de pantalla 2021-03-06 a las 23 04 41](https://user-images.githubusercontent.com/65786438/110222138-65bb4080-7ed0-11eb-9d40-5867a06a3483.png)
+<ol>
+    <li>
+        <h3>Tu primera escena virtual</h3>
+        Bienvenid@ a tu primera práctica, accede al código, míralo, modifícalo y estúdialo. Tu primera misión es crear una escena parecida pero con tus propias primitivas: añade tus propias texturas y colores, rota los objetos. ¿Eres capaz de crear una habitación? ¿Eres capaz de crear una ventana, una silla o incluso un pequeño avatar? En tus manos lo dejo.
+        ![Captura de pantalla 2021-03-07 a las 20 22 21](https://user-images.githubusercontent.com/65786438/110251941-534e0f00-7f83-11eb-8170-5854271b1c1e.png)
+    </li>
+    <li>
+        <h3></h3>
+    </li>
+    <li>
+        <h3></h3>
+    </li>
+    <li>
+        <h3></h3>
+    </li>º
+</ol>
 
 
 
