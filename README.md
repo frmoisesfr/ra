@@ -69,7 +69,6 @@ Este código va dentro del body
         <h3>Tu primera escena virtual</h3>
         Bienvenid@ a tu primera práctica, accede al código, míralo, modifícalo y estúdialo. Tu primera misión es crear una escena parecida pero con tus propias primitivas: añade tus propias texturas y colores, rota los objetos. ¿Eres capaz de crear una habitación? ¿Eres capaz de crear una ventana, una silla o incluso un pequeño avatar? En tus manos lo dejo.  
     </li>
-    Primera escena virtual
     <li>
         <h3></h3>
     </li>
