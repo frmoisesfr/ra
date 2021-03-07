@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Realidad Aumentada 01</title>
+        <!-- Librería Javascript aFrame para usar funciones interactivas 3D y de realidad aumentada. La librería aframe-particle-system es para crear sistemas de partículas -->
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <script src="aframe-particle-system-component.min.js"></script>
+    </head>
+    <body>
+  
+        <!-- 
+            Primero hay que crear una escena virtual.
+            Si pulsas la tecla Ctrl + Alt + i accederás al panel de inspección y podrás manejar el mundo virtual casi a tu antojo. Pruébalo.
+        -->
+        <a-scene>
+           <!-- 
+                a-camera: todo mundo virtual y 3D necesita de una cámara para situarse como espectador.
+                fov: es el ángulo de visión, imita la amplitud visual del ojo humano.
+            --> 
+            <a-camera fov="80" position="0 2 3"></a-camera>
+            <!-- 
+                a-box: permite crear una cubo en 3D 
+                position: posición en las coordenadas (x,y,z) las undiades son en metros
+                rotation: podemos rotar en los 3 ejes (x,y,z) las unidades son en grados
+                opacity: transparencia del objeto, 0 mínimo y 1 y máximo
+                scale: escala y tamaño del objeto en los 3 ejes
+                src: insertamos la imagen que queremos como textura de fondo, aumenta el realismo
+            -->
+            <a-box position="0 1 -4" rotation="30 0 0" material="opacity: 1;" src="./img/madera.jpg" scale="1 1 1">
+            </a-box>
+            <!-- 
+                a-plane: plano liso
+                width: nos permite indicar las unidades de la anchura
+                height: nos permite indicar las unidades de la altura
+            -->
+            <a-plane 
+                position="0 0 -6" rotation="-90 0 0" src="./img/suelo.jpg" 
+                repeat="2 2 2"
+                width="7" height="7">
+            </a-plane>
+            <a-plane 
+                position="0 2 -9" rotation="0 0 0" src="./img/suelo.jpg" 
+                repeat="2 2 2"
+                width="7" height="7">
+            </a-plane>
+            <!--
+                a-sky: es el cielo que rodea nuestra escena en 3D
+                color: podemos indicar la tonalidad del cielo
+                src: podemos insertar una imagen de fondo personal y única
+            -->
+            <!-- 
+                a-sphere: una esfera en 3D
+                a-cylinder: un cilindro en 3D
+                a-sky: cielo, podemos ponerle una fotografía de fondo
+            -->
+            
+            <a-sphere src="./img/piedra.jpeg" position="1.7 1 -6" radius="0.8" normal-map="#normal1" normal-texture-repeat="2 2"  normal-scale="4 -1"
+            position="2 1 -5"></a-sphere>
+            <a-cylinder position="-1.5 0.4 -4.5" rotation="90 15 40" radius="0.5" height="2" color="#EF2D5E"></a-cylinder>
+            
+            <!--
+                a-entity: podemos crear entidad propias, en este caso creamos un pequeño sistema de partículas en forma de nubes
+                preset: dust, rain, snow, stars, colors
+                velocityValue: velocidad de impulso en cada uno de los ejes
+            -->
+            <a-entity position="0 5 -15" particle-system="preset:dust; velocityValue:1 1 0; particleCount:1000"></a-entity>
+            <a-sky color="black"></a-sky>
+        </a-scene>
+    </body>
+</html>
