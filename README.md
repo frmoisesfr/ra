@@ -35,6 +35,16 @@ Pequeño ejemplo:
         <h3>Width, Height</h3>
         La propiedad Width sirve para indicar la anchura del objeto y height la altura, si tuviéramos un cubo estaríamos hablando de la base por la altura. Se utiliza para crear un objeto con las dimensiones que queramos.
     </li>
+    <li>
+        <h3>Scale</h3>
+        Es la escala de nuestro objeto medido en las coordenadas "x y z"
+    </li>
+    <li>
+        <h3></h3>
+    </li>
+    <li>
+        <h3></h3>
+    </li>
 </ul>
 
 <h2>Prácticas</h2>
