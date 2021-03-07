@@ -55,10 +55,12 @@ Este código va dentro del body
     Debes tener cuidado a la hora de posicionar los objetos, por defecto son creados en el punto "0 0 0" eso significa que nuestra cámara también estará situada ahí, si no desplazamos los objetos no podremos verlos al principio.
     </li>
     <li>
-        <h3></h3>
+        <h3>Abrir el inspector</h3>
+        Puedes pulsar las telcas ctrl+alt+i automáticamente se abrirá el inspector de propiedades. Te sorprenderá todo lo que puedes hacer desde ahí.
     </li>
     <li>
-        <h3></h3>
+        <h3>Movimiento dentro de la escena</h3>
+        Los controles por defecto permiten clickear y arrastrar con el ratón y moverte con las teclas WASD o las teclas con flechas. También podemos movernos en dispositivos móviles girando y haciendo un paneo del dispositivo.
     </li>    
 </ul>
 
