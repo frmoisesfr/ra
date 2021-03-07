@@ -26,12 +26,14 @@ Pequeño ejemplo:
     <li>
         <h3>Position</h3>
         Es la posición de nuestro objeto medido siempre en las coordenadas "x y z"
-        ![xyz](https://user-images.githubusercontent.com/65786438/110248685-ac617700-7f72-11eb-8b6a-3794fcc8ee89.jpg)
     </li>
     <li>
         <h3>Rotation</h3>
         Nos permite rotar el objeto los grados que queramos y en relación al eje que elijamos.
-        ![Captura de pantalla 2021-03-07 a las 18 29 01](https://user-images.githubusercontent.com/65786438/110248760-03674c00-7f73-11eb-89b6-41242fb16b85.png)
+    </li>
+    <li>
+        <h3>Width, Height</h3>
+        La propiedad Width sirve para indicar la anchura del objeto y height la altura, si tuviéramos un cubo estaríamos hablando de la base por la altura. Se utiliza para crear un objeto con las dimensiones que queramos.
     </li>
 </ul>
 
