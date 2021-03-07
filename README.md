@@ -21,10 +21,24 @@ Pequeño ejemplo:
       <a-sky color="#ECECEC"></a-sky>
     </a-scene>
 
-Puedes crear tu propio mundo virtual
+<h2>Propiedades de Transformación</h2>
+<ul>
+    <li>
+        <h3>Position</h3>
+        Es la posición de nuestro objeto medido siempre en las coordenadas "x y z"
+        ![xyz](https://user-images.githubusercontent.com/65786438/110248685-ac617700-7f72-11eb-8b6a-3794fcc8ee89.jpg)
+    </li>
+    <li>
+        <h3>Rotation</h3>
+        Nos permite rotar el objeto los grados que queramos y en relación al eje que elijamos.
+        ![Captura de pantalla 2021-03-07 a las 18 29 01](https://user-images.githubusercontent.com/65786438/110248760-03674c00-7f73-11eb-89b6-41242fb16b85.png)
+    </li>
+</ul>
+
+<h2>Prácticas</h2>
 
 ![Captura de pantalla 2021-03-06 a las 23 04 41](https://user-images.githubusercontent.com/65786438/110222138-65bb4080-7ed0-11eb-9d40-5867a06a3483.png)
 
-Propiedades de Transformación
+
 
 
