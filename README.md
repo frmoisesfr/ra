@@ -12,7 +12,7 @@ Para crear una escena virtual necesitamos importar una librería dentro del head
 
 A continuación debes insertar el contenido en el body, primero una escena y dentro de ella todos sus elementos: primitivas o entidades, cámara, luz, cielo, etc.
 Pequeño ejemplo:
-
+    <div style="color: blue">
     <a-scene>
       <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
       <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
@@ -20,6 +20,7 @@ Pequeño ejemplo:
       <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
       <a-sky color="#ECECEC"></a-sky>
     </a-scene>
+    </div>
 
 <h2>Propiedades de Transformación</h2>
 <ul>
