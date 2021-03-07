@@ -72,8 +72,6 @@ Este código va dentro del body
     Primera escena virtual
     <li>
         <h3></h3>
-        ![P1](https://user-images.githubusercontent.com/65786438/110252097-04ed4000-7f84-11eb-8c47-e0eeaaf6338c.png)
-asd
     </li>
     <li>
         <h3></h3>
