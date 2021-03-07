@@ -24,13 +24,13 @@ Pequeño ejemplo:
 <h2>Propiedades de Transformación</h2>
 <ul>
     <li>
-        <h4>Position: </h4>Es la posición de nuestro objeto medido siempre en las coordenadas "x y z"
+        <h3>Position: </h3>Es la posición de nuestro objeto medido siempre en las coordenadas "x y z"
     </li>
     <li>
-        <h4>Rotation: </h4>Nos permite rotar el objeto los grados que queramos y en relación al eje que elijamos.
+        <h3>Rotation: </h3>Nos permite rotar el objeto los grados que queramos y en relación al eje que elijamos.
     </li>
     <li>
-        <h4>Width, Height: </h4> La propiedad Width sirve para indicar la anchura del objeto y height la altura, si tuviéramos un cubo estaríamos hablando de la base por la altura. Se utiliza para crear un objeto con las dimensiones que queramos.
+        <h3>Width, Height: </h3> La propiedad Width sirve para indicar la anchura del objeto y height la altura, si tuviéramos un cubo estaríamos hablando de la base por la altura. Se utiliza para crear un objeto con las dimensiones que queramos.
     </li>
     <li>
         <h3>Scale</h3>
@@ -70,7 +70,7 @@ Este código va dentro del body
         
         ![Captura de pantalla 2021-03-07 a las 20 22 21](https://user-images.githubusercontent.com/65786438/110251985-8db7ac00-7f83-11eb-9ca5-123d5f6457b7.png)
 
-        
+wasd        
     </li>
     <li>
         <h3></h3>
