@@ -71,10 +71,19 @@ Este código va dentro del body
     </li>
     <li>
         <h3>Segunda escena virtual</h3>
-        Aquí podrás crear una escena un poco más avanzada
+        Aquí podrás crear una escena más avanzada, con sistema de partículas y texturas.
     </li>
     <li>
-        <h3></h3>
+        <h3>Foto esférica 360</h3>
+        Crea una fotografía esférica o de 360 grados e insértala en tu web. Puedes crear fotos con Google Street, por ejemplo.
+    </li>
+    <li>
+        <h3>Realidad Aumentada cubo</h3>
+        Utiliza tu tarjeta o marcador Hiro y haz aparecer una primitiva, en este caso un cubo 3D.
+    </li>
+    <li>
+        <h3>Realidad Aumentada Fotografía</h3>
+        Inserta una fotografía artística y un texto personalizado sobre tu marcador Hiro.
     </li>
     <li>
         <h3></h3>
