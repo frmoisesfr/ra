@@ -70,7 +70,8 @@ Este código va dentro del body
         Bienvenid@ a tu primera práctica, accede al código, míralo, modifícalo y estúdialo. Tu primera misión es crear una escena parecida pero con tus propias primitivas: añade tus propias texturas y colores, rota los objetos. ¿Eres capaz de crear una habitación? ¿Eres capaz de crear una ventana, una silla o incluso un pequeño avatar? En tus manos lo dejo.  
     </li>
     <li>
-        <h3></h3>
+        <h3>Segunda escena virtual</h3>
+        Aquí podrás crear una escena un poco más avanzada
     </li>
     <li>
         <h3></h3>
