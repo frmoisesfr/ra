@@ -79,16 +79,10 @@ Este código va dentro del body
     </li>
     <li>
         <h3>Realidad Aumentada cubo</h3>
-        Utiliza tu tarjeta o marcador Hiro y haz aparecer una primitiva, en este caso un cubo 3D.
-    </li>
-    <li>
-        <h3>Realidad Aumentada Fotografía</h3>
-        Inserta una fotografía artística y un texto personalizado sobre tu marcador Hiro.
-    </li>
-    <li>
-        <h3></h3>
+        Utiliza tu tarjeta o marcador Hiro y haz aparecer una primitiva, en este caso un cubo 3D. Inserta una fotografía artística y un texto personalizado sobre tu marcador Hiro, un vídeo en movimiento y un sin fin de posibilidades. Prueba el código de ejemplo.
     </li>
 </ol>
+![Captura de pantalla 2021-03-09 a las 19 07 49](https://user-images.githubusercontent.com/65786438/110517149-c46bfe80-810a-11eb-9cf3-19fb73ef25e3.png)
 
 
 
