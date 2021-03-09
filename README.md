@@ -63,7 +63,7 @@ Este código va dentro del body
 
 <h2>PRÁCTICAS</h2>
 
-![P1](https://user-images.githubusercontent.com/65786438/110252032-c5beef00-7f83-11eb-9650-e03ed7489b49.png)
+![Escena3D](https://user-images.githubusercontent.com/65786438/110517197-d5b50b00-810a-11eb-8c49-f5d35bab2a59.png)
 <ol>
     <li>
         <h3>Tu primera escena virtual</h3>
@@ -84,9 +84,5 @@ Este código va dentro del body
 </ol>
 
 
-![Escena3D](https://user-images.githubusercontent.com/65786438/110517197-d5b50b00-810a-11eb-8c49-f5d35bab2a59.png)
-
-
-
-
+![P1](https://user-images.githubusercontent.com/65786438/110252032-c5beef00-7f83-11eb-9650-e03ed7489b49.png)
 
