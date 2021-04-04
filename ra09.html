@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Realidad Aumentada 09</title>
-        <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+        <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
     </head>
     <body>
   
@@ -11,7 +11,6 @@
         -->
         <a-scene>
         <!-- Creamos el objeto que queremos insertar mediante assets -->
-         <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9" shadow></a-box>
           <a-assets>
             <a-asset-item id="cara-obj" src="./Adrian/Adrian1SMYR.obj"></a-asset-item>
             <a-asset-item id="cara-mtl" src="./Adrian/Adrian1SMYR.mtl"></a-asset-item>
@@ -23,7 +22,7 @@
             <a-animation attribute="scale" begin="2000" to="0.007 0.007 0.007"></a-animation>
           </a-entity>
           <a-sky color="black"></a-sky>
-          <a-camera fov="50" position="0 2 3"></a-camera>
+          <a-camera fov="60" position="0 2 3"></a-camera>
         </a-scene>
     </body>
 </html>
