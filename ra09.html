@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Realidad Aumentada 00</title>
+    <meta name="description" content="Hello, WebVR! - A-Frame">
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+     <!-- Creamos el objeto que queremos insertar mediante assets -->
+      <a-assets>
+        <a-asset-item id="cara-obj" src="./Adrian/Adrian1SMYR.obj"></a-asset-item>
+        <a-asset-item id="cara-mtl" src="./Adrian/Adrian1SMYR.mtl"></a-asset-item>
+      </a-assets>
+      <!-- Llamamos a ese objeto que hemos creado y que hemos identificado con id-->
+      <a-entity obj-model="obj: #cara-obj; mtl: #cara-mtl" scale="0.01 0.01 0.01" rotation="-90 0 0" position="0 1.5 -4">
+        <!-- Creamos dos animaciones distintas, una para rotar el objeto y otra para escalar suavemente-->
+        <a-animation attribute="rotation" begin="2500" to="0 0 360" dur="50000" easing='linear' repeat="indefinite"></a-animation>
+        <a-animation attribute="scale" begin="2000" to="0.007 0.007 0.007"></a-animation>
+      </a-entity>
+      <a-sky color="black"></a-sky>
+    </a-scene>
+  </body>
+</html>
