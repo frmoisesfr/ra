@@ -71,15 +71,15 @@ Este código va dentro del body
 <ol>
     <li>
         <h3>Tu primera escena virtual</h3>
-        Bienvenid@ a tu primera práctica, accede al código, míralo, modifícalo y estúdialo. Tu primera misión es crear una escena parecida pero con tus propias primitivas: añade tus propias texturas y colores, rota los objetos. ¿Eres capaz de crear una habitación? ¿Eres capaz de crear una ventana, una silla o incluso un pequeño avatar? En tus manos lo dejo.  
+        Bienvenid@ a tu primera práctica, accede al código, míralo, modifícalo y estúdialo. Tu primera misión es crear una escena parecida pero con tus propias primitivas: añade tus propias texturas y colores, rota los objetos. ¿Eres capaz de crear una habitación? ¿Eres capaz de crear una ventana, una silla o incluso un pequeño avatar, una portería o canasta? En tus manos lo dejo.  
     </li>
     <li>
         <h3>Segunda escena virtual</h3>
-        Aquí podrás crear una escena más avanzada, con sistema de partículas y texturas.
+        Aquí podrás crear una escena más avanzada, con sistema de partículas y texturas. Utiliza la escena anterior y añade texturas y fondo con partículas.
     </li>
     <li>
         <h3>Foto esférica 360</h3>
-        Crea una fotografía esférica o de 360 grados e insértala en tu web. Puedes crear fotos con Google Street, por ejemplo.
+        Crea una fotografía esférica (360 grados) personal y única e insértala en tu web. Puedes crear fotos con Google Street, por ejemplo.
     </li>
     <li>
         <h3>Realidad Aumentada cubo</h3>
