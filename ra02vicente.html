@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>Realidad Aumentada 02</title>
+    <!-- Librería Javascript aFrame para usar funciones interactivas 3D y de realidad aumentada. La librería aframe-particle-system es para crear sistemas de partículas -->
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="aframe-particle-system-component.min.js"></script>
+</head>
+
+<body>
+
+    <!-- 
+            Primero hay que crear una escena virtual.
+            Si pulsas la tecla Ctrl + Alt + i accederás al panel de inspección y podrás manejar el mundo virtual casi a tu antojo. Pruébalo.
+        -->
+    <a-scene>
+        <!-- Agrega un cielo estrellado -->
+        <a-sky src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg" rotation="0 -90 0"></a-sky>
+
+        <!-- Figuras 3D -->
+        <a-cylinder color="white" position="0 0 -7" scale="0.8 0.5 0.8" rotation="0 0 0" color="#999999" shadow></a-cylinder>
+        <a-sphere color="white" position="0 0.25 -7" scale="0.69 0.5 0.69" rotation="0 0 0" color="#999999" shadow></a-sphere>
+        <a-cylinder color="white" position="0 0.5 -7" scale="0.6 0.3 0.6" rotation="0 0 0" color="#999999" shadow></a-cylinder>
+        <a-cylinder color="red" position="0 1.7 -7" scale="0.54 4 0.54" rotation="0 0 0" color="#999999" shadow></a-cylinder>
+        <a-torus color="white" position="0 3 -7" scale="0.54 0.54 0.28" rotation="90 0 0" color="#999999" shadow></a-torus>
+        <a-torus color="white" position="0 3.7 -7" scale="0.45 0.45 0.2" rotation="90 0 0" color="#999999" shadow></a-torus>
+        <a-cylinder color="white" position="0 3.2 -7" scale="0.50 2 0.50" rotation="0 0 0" color="#999999" shadow></a-cylinder>
+        <a-cylinder color="red" position="0 3.7 -7" scale="0.45 6 0.45" rotation="0 0 0" color="#999999" shadow></a-cylinder>
+        <a-torus color="white" position="0 6.6 -7" scale="0.39 0.39 0.2" rotation="90 0 0" color="#999999" shadow></a-torus>
+        <a-cylinder color="white" position="0 6.7 -7" scale="0.35 0.3 0.35" rotation="0 0 0" color="#999999" shadow></a-cylinder>
+        <a-octahedron color="grey" position="0 6.8 -7" scale="0.4 0.6 0.4" rotation="0 0 0" color="#999999" shadow></a-octahedron>
+        <a-octahedron color="orange" position="0 7.5 -7" scale="0.5 0.8 0.5" rotation="0 0 0" color="#fff" shadow></a-octahedron>
+        <a-box color="grey" position="0 8.5 -7" scale="1.4 0.25 1.4" rotation="0 0 0" color="#999999" shadow></a-box>
+        <a-box color="grey" position="0 7.0 -7" scale="1.2 0.06 1.2" rotation="0 0 0" color="#999999" shadow></a-box>
+        <a-box color="grey" position="0.46 7.68 -6.55" scale="0.2 1.4 0.2" rotation="10 15 0" color="#999999" shadow></a-box>
+        <a-box color="grey" position="-0.46 7.68 -6.55" scale="0.2 1.4 0.2" rotation="10 -15 0" color="#999999" shadow></a-box>
+        <a-box color="grey" position="0.46 7.68 -7.45" scale="0.2 1.4 0.2" rotation="-10 15 0" color="#999999" shadow></a-box>
+        <a-box color="grey" position="-0.46 7.68 -7.45" scale="0.2 1.4 0.2" rotation="-10 -15 0" color="#999999" shadow></a-box>
+
+        <!-- Cámara -->
+        <a-camera fov="80" position="0 2 3"></a-camera>
+        
+        <!-- Plano de suelo -->
+        <a-plane position="0 0 -6" rotation="-90 0 0" src="./img/suelo.jpg" repeat="2 2 2" width="7" height="7"></a-plane>
+        <a-plane position="0 2 -9" rotation="0 0 0" src="./img/suelo.jpg" repeat="2 2 2" width="7" height="7"></a-plane>
+
+        <!-- Partículas -->
+        <a-entity position="0 5 -15" particle-system="preset:dust; velocityValue:1 1 0; particleCount:1000"></a-entity>
+    </a-scene>
+</body>
+
+</html>
