@@ -17,6 +17,10 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
 }
 
+.menu ul > li{
+    list-style-type: none;
+}
+
 a{
     border: solid 2px black;
     box-shadow: black 5px 5px 5px;
